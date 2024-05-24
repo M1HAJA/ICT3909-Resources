@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Map</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="mindmap">
+        <svg class="connections" width="800" height="800">
+            <!-- Lines will be added here dynamically -->
+        </svg>
+        <div class="circle" id="home">Ethics in AI</div>
+        <div class="circle" id="circle1">Human Agency and Oversight</div>
+        <div class="circle" id="circle2">Technical Robustness and Safety</div>
+        <div class="circle" id="circle3">Privacy and Data Governance</div>
+        <div class="circle" id="circle4">Transparency</div>
+        <div class="circle" id="circle5">Diversity, non‐discrimination and fairness</div>
+        <div class="circle" id="circle6">Societal and environmental well‐being</div>
+        <div class="circle" id="circle7">Accountability</div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-button">&times;</span>
+            <div class="links" id="links">
+                <!-- Links will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
