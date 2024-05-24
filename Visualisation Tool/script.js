@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const svg = document.querySelector('.connections');
 
     const links = {
-        home: [{ text: "This webpage contains literature pertaining to Ethics in AI identified during the systematic review of Jan Lawrence Formosa's undergraduate FYP project in Artificial Intelligence ", url: 'https://github.com/M1HAJA/ICT3909-Resources'}],
+        home: [{ text: "This webpage contains literature pertaining to Ethics in AI identified during the systematic review of Jan Lawrence Formosa's undergraduate FYP in Artificial Intelligence ", url: 'https://github.com/M1HAJA/ICT3909-Resources'}],
         circle1: [
             { text: '1. How to Evaluate Trust in AI‐Assisted Decision Making? A Survey of Empirical Methodologies', url: 'https://dl.acm.org/doi/abs/10.1145/3476068' },
             { text: '2. A Survey of Ambient Intelligence', url: 'https://dl.acm.org/doi/abs/10.1145/3447242' },
